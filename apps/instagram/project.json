@@ -51,7 +51,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "instagram:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/instagram/proxy.conf.json"
       },
       "configurations": {
         "development": {
