@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import {BackendConfigModule} from "./config/config.module";
 
 @Module({
-  imports: [],
+  imports: [BackendConfigModule],
   controllers: [],
   providers: [],
 })
